@@ -11,3 +11,18 @@ for (let i = 0; i < emailList.length; i++){
 }
 
 console.log("la tua email è " + verifica);
+
+
+
+const primoNumero = Math.floor(Math.random() * 6) + 1;
+const secondoNumero = Math.floor(Math.random() * 6) + 1;
+
+if (primoNumero > secondoNumero) {
+    console.log("vince l'utente")
+} else if (primoNumero < secondoNumero) {
+    console.log("vince il computer")
+} else if (primoNumero === secondoNumero) {
+    console.log("pareggio")
+}
+console.log("primo numero " + primoNumero);
+console.log("secondo numero " + secondoNumero);
